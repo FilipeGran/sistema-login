@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+}
+
+input,
+button {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: #407BFF;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  width: 300px;
+  height: 300px;
+}
+
+.container {
+  display: flex;
+  max-width: 960px;
+  margin: 0 auto;
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 300px;
+}
+
+.formulario h1 {
+  color: #333;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.formulario input {
+  font-size: 17px;
+  border: 2px solid #407BFF;
+  margin-bottom: 20px;
+  padding: 5px;
+  color: #333;
+  outline: none;
+}
+
+.formulario button {
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 5px;
+  background: #407BFF;
+  color: #FFF;
+  border: 1px solid #407BFF;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.formulario button:hover {
+  color: #407BFF;
+  background: #FFF;
+}
+
+.formulario p {
+  color: #333;
+}
+
+.erro {
+  color: #F00;
+  text-transform: uppercase;
+}
+
+.error-email {
+  margin-bottom: 20px;
+}

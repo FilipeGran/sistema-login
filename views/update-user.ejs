@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Atualizar Conta</title>
+</head>
+
+<body>
+    <div class="container">
+        <form class="formulario" method="POST" action="http://localhost:8080/user/update">
+            <h1>Atualizar Dados</h1>
+            <input type="text" value="<%= user.name %>" name="name" id="name">
+            <input type="text" value="<%= user.email %>" name="email" id="email">
+            <input type="text" value="<%= user.password %>" name="password" id="password">
+            <button type="submit">Atualizar</button>
+        </form>
+        <div class="img">
+            <img src="/img/login.png" alt="" srcset="">
+        </div>
+    </div>
+</body>
+
+</html>

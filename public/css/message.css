@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+}
+
+input,
+button {
+    display: block;
+}
+
+.container {
+    display: flex;
+    padding: 10px;
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 100PX;
+    flex-direction: column;
+    border: 2px solid #407BFF;
+    border-radius: 10px;
+    text-align: center;
+}
+
+a {
+    color: #407BFF;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
